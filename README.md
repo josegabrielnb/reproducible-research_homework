@@ -1,12 +1,12 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE#
+\# INSERT ANSWERS HERE #
 
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points).
 
-First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the #INSERT ANSWERS HERE# section above in the **README.md** file of your forked repository.
+First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
 
 Questions 1, 2 and 3 should be answered in the **README.md** file of the `logistic_growth` repo that you forked during the practical. To answer those questions here, simply add a link to your `logistic_growth` fork above.
 
@@ -14,7 +14,7 @@ When you submit, add a link to your forked version of this repository. All answe
 
 ## Assignment questions 
 
-1) (**10 points**) Annotate the **README.md** file in your `logistic_growth` repo with more detailed information about the analysis. Add a section on the results and include the estimates for $N_0$, $r$ and $K$ (mention which experiment*.csv file you used).
+1) (**10 points**) Annotate the **README.md** file in your `logistic_growth` repo with more detailed information about the analysis. Add a section on the results and include the estimates for $N_0$, $r$ and $K$ (mention which *.csv file you used).
    
 2) (**10 points**) Use your estimates of $N_0$ and $r$ to calculate the population size at $t$ = 4980 min, assuming that the population grows exponentially. How does it compare to the population size predicted under logistic growth? 
 
@@ -33,5 +33,9 @@ When you submit, add a link to your forked version of this repository. All answe
    - What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)
    - Find the exponent ($\alpha$) and scaling factor ($\beta$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (12 points)
    - Write the code to reproduce the figure shown below. (12 points)
+
+  <p align="center">
+     <img src="https://github.com/josegabrielnb/reproducible-research_homework/blob/main/question-5-data/allometric_scaling.png" width="500" height="400">
+  </p>
 
 **Bonus** (**10 points**) Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocols.io](https://www.protocols.io/) for some ideas).
