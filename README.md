@@ -1,16 +1,16 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS TO QUESTION 4, 5 AND BONUS HERE#
+\# INSERT ANSWERS HERE#
 
 ## Instructions
 
-The homework for this Computer skills practical is divided into 5 questions for a total of 100 points, plus an optional bonus question worth 10 extra points.
+The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points).
 
-Questions 1, 2 and 3 should be answered in the **README.md file** of the `logistic-growth` repo that you forked during the practical.
+First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the #INSERT ANSWERS HERE# section above in the **README.md** file of your forked repository.
 
-Questions 4 and 5 (and the bonus question), should be answered in this README.md file (in your forked repo), in the section above where it says #INSERT ANSWERS HERE#.
+Questions 1, 2 and 3 should be answered in the **README.md file** of the `logistic-growth` repo that you forked during the practical. To answer those questions here, simply add a link to your `logistic-growth` fork above.
 
-
+When you submit, simply add a link to your forked version of this repository. All answers should be on the `main` branch.
 
 ## Assignment questions 
 
