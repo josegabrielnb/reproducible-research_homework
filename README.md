@@ -1,6 +1,6 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE#
+\# INSERT ANSWERS TO QUESTION 4, 5 AND BONUS HERE#
 
 ## Instructions
 
@@ -8,7 +8,7 @@ The homework for this Computer skills practical is divided into 5 questions for 
 
 Questions 1, 2 and 3 should be answered in the **README.md file** of the `logistic-growth` repo that you forked during the practical.
 
-Questions 4 and 5 (and the bonus question), should be answered in this README.md file (in your forked repo), in the section where it says #Insert your answers here#.
+Questions 4 and 5 (and the bonus question), should be answered in this README.md file (in your forked repo), in the section above where it says #INSERT ANSWERS HERE#.
 
 
 
@@ -34,4 +34,4 @@ Questions 4 and 5 (and the bonus question), should be answered in this README.md
    - Find the exponent ($\alpha$) and scaling factor ($\beta$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (12 points)
    - Write the code to reproduce the figure shown below. (12 points)
 
-**Bonus** (**10 points**) Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocls.io](https://www.protocols.io/) for some ideas).
+**Bonus** (**10 points**) Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocols.io](https://www.protocols.io/) for some ideas).
