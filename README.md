@@ -31,11 +31,13 @@ When you submit, add a link to your forked version of this repository. All answe
 
    - Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the question5 folder). How many rows and columns does the table have? (3 points)
    - What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)
-   - Find the exponent ($\alpha$) and scaling factor ($\beta$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (12 points)
-   - Write the code to reproduce the figure shown below. (12 points)
+   - Find the exponent ($\alpha$) and scaling factor ($\beta$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)
+   - Write the code to reproduce the figure shown below. (10 points)
 
   <p align="center">
-     <img src="https://github.com/josegabrielnb/reproducible-research_homework/blob/main/question-5-data/allometric_scaling.png" width="500" height="400">
+     <img src="https://github.com/josegabrielnb/reproducible-research_homework/blob/main/question-5-data/allometric_scaling.png" width="600" height="500">
   </p>
+
+  - What is the estimated volume of a 300 kb dsDNA virus? (4 points)
 
 **Bonus** (**10 points**) Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocols.io](https://www.protocols.io/) for some ideas).
