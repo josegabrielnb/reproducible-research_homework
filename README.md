@@ -9,7 +9,7 @@
 4) (**30 points**) Sometimes we are interested in modelling a process that involves randomness. A good example is Brownian motion. We will explore how to simulate a random process in a way that it is reproducible:
 
    - Fork the repository `brownian_motion`, and execute the code to produce a figure of 2 random walks. What do you observe? (10 points)
-   - Investigate the term *random seeds*. What is a random seed and how does it work? (5 points)
+   - Investigate the term **random seeds**. What is a random seed and how does it work? (5 points)
    - Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)
    - Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)
 
