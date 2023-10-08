@@ -23,7 +23,7 @@
 
    - Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the question5 folder). How many rows and columns does the table have? (3 points)
    - What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)
-   - Find the exponent ($\alpha$) and scaling factor ($\beta$) of the allometric law for dsDNA viruses and write their p-values. Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (12 points)
+   - Find the exponent ($\alpha$) and scaling factor ($\beta$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (12 points)
    - Write the code to reproduce the figure shown below. (12 points)
 
 **Bonus** (**10 points**) Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocls.io](https://www.protocols.io/) for some ideas).
