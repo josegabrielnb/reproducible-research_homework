@@ -1,0 +1,34 @@
+Family,Genus,Type species,GenBank accession no.,Envelope,Virion type,T,Virion diameter (nm),Virion length (nm),Virion volume (nm×nm×nm),Molecule,Genome length (kb),Protein no.
+Myoviridae ,P1-like viruses,Enterobacteria phage P1,NC_005856,No,Icosahedral,13,85,,321392,Linear,94.8,110
+,P2-like viruses,Enterobacteria phage P2,NC_001895,No,Icosahedral,13,60,,113040,Linear,33.59,43
+,Mu-like viruses,Enterobacteria phage Mu,NC_000929,No,Icosahedral,13,60,,113040,Linear,36.72,55
+,SPO1-like viruses,Bacillus phage SPO1,NC_011421,No,Icosahedral,13,94,,434672,Linear,132.56,204
+Siphoviridae ,Lambda-like viruses,Enterobacteria phage lambda,NC_001416,No,Icosahedral,7,60,,113040,Linear,48.5,73
+,T1-like viruses ,Enterobacteria phage T1,NC_005833,No,Icosahedral,7,60,,113040,Linear,48.84,78
+,T5-like viruses ,Enterobacteria phage T5,NC_005859,No,Icosahedral,7,80,,267947,Linear,121.75,162
+,L5-like viruses ,Mycobacterium phage L5,NC_001335,No,Icosahedral,7,60,,113040,Linear,52.3,85
+,Unassigned,Methanobacterium phage psiM2,NC_001902,No,Icosahedral,7,55,,87077,Linear,26.11,32
+,phiC31-like viruses ,Streptomyces phage phiC31,NC_001978,No,Icosahedral,7,53,,77912,Linear,41.49,53
+,N15-like viruses ,Enterobacteria phage N15,NC_001901,No,Icosahedral,7,60,,113040,Linear,46.38,60
+Podoviridae ,T7-like viruses ,Enterobacteria phage T7,NC_001604,No,Icosahedral,7,60,,113040,Linear,39.94,60
+,P22-like viruses ,Enterobacteria phage P22,NC_002371,No,Icosahedral,7,63,,130858,Linear,41.72,72
+,N4-like viruses ,Escherichia phage N4,NC_008720,No,Icosahedral,7,70,,179503,Linear,70.15,72
+Corticoviridae,Corticovirus,Pseudoalteromonas phage PM2,NC_000867,Yes,Icosahedral,21,56,,91913,Circular,10.08,22
+Lipothrixviridae,Betalipothrixvirus,Sulfolobus islandicus filamentous virus,NC_003214,Yes,Filamentous,,24,1950,881712,Linear,40.9,73
+,Gammalipothrixvirus,Acidianus filamentous virus 1,NC_005830,Yes,Filamentous,,24,900,406944,Linear,20.87,40
+Unassigned,Salterprovirus,His1 virus,NC_007914,Yes,Ovoid,,44,74,87212,Linear,14.46,35
+Poxviridae,Orthopoxvirus,Vaccinia virus,NC_006998,Yes,Brick,,200(x200),250,10000000,Linear,194.71,223
+,Avipoxvirus,Fowlpox virus,NC_002188,Yes,Brick,,280(x200),330,18480000,Linear,288.54,261
+,Capripoxvirus,Sheeppox virus,NC_004002,Yes,Brick,,270(x200),300,16200000,Linear,149.96,148
+,Leporipoxvirus,Myxoma virus,NC_001132,Yes,Brick,,250(x200),300,15000000,Linear,161.77,170
+,Suipoxvirus,Swinepox virus,NC_003389,Yes,Brick,,250(x200),300,15000000,Linear,146.45,150
+,Molluscipoxvirus,Molluscum contagiosum virus,NC_001731,Yes,Brick,,250(x200),320,16000000,Linear,190.29,163
+,Yatapoxvirus,Yaba monkey tumor virus,NC_005179,Yes,Brick,,250(x200),300,15000000,Linear,134.72,140
+,Betaentomopoxvirus,Amsacta moorei entomopoxvirus 'L',NC_002520,Yes,Ovoid,,250,350,11447917,Linear,232.39,294
+Iridoviridae,Chloriridovirus,Invertebrate iridescent virus 3,NC_008187,Yes,Icosahedral,189-217,180,,3052323,Linear,191.1,126
+,Ranavirus,Frog virus 3,NC_005946,Yes,Icosahedral,133 or 147,150,,1766391,Linear,105.9,99
+Adenoviridae,Mastadenovirus,Human adenovirus C,NC_001405,No,Icosahedral,25,90,,381540,Linear,35.94,38
+Polyomaviridae,Polyomavirus,Simian virus 40,NC_001669,No,Icosahedral,7,45,,47693,Circular,5.24,8
+Papillomaviridae,Alphapapillomavirus,Human papillomavirus 16,NC_001526,No,Icosahedral,7,55,,87077,Circular,7.91,8
+Mimiviridae,Mimivirus,Acanthamoeba polyphaga mimivirus,NC_014649,No,Icosahedral,972-1200,400,,33496000,Linear,1181.55,979
+Unassigned,Pandoravirus,Pandoravirus salinus,NC_022098,Yes,Ovoid,,,,75000000,Linear,2473.87,2541
