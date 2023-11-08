@@ -19,6 +19,8 @@ This means that alpha, the exponent has a value of 1.5152
 And beta, the scaling factor is 1181.80711574
 They are both very statistically significant with P values very under 0.05, showing that this model fits ALOT closer than is due to chance
 
+The estimated volume is V= 1181.80711574 *300^1.5152 = 6697006.58117
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
