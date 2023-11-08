@@ -4,7 +4,9 @@
 library(ggplot2)
 library(gridExtra)
 
-random_walk  <- function (n_steps) {
+random_walk  <- function (n_steps,seed) {
+  
+  set.seed(seed)
   
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
   
@@ -28,9 +30,10 @@ random_walk  <- function (n_steps) {
   
 }
 
-data1 <- random_walk(500)
 
-plot1 <- ggplot(aes(x = x, y = y), data = data1) +
+##Brownian motion is random but we need it to be reproducible
+data1<-random_walk(1000,2)# The second input acts as a reproducible seed. In this case I have set it to be RESET every time so each seed here corresponds with ONE random graph.
+ggplot(aes(x = x, y = y), data = data1) +
   
   geom_path(aes(colour = time)) +
   
@@ -40,16 +43,31 @@ plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   
   ylab("y-coordinate")
 
-data2 <- random_walk(500)
+#data1 <- random_walk(500)
 
-plot2 <- ggplot(aes(x = x, y = y), data = data2) +
+#plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   
-  geom_path(aes(colour = time)) +
+#  geom_path(aes(colour = time)) +
   
-  theme_bw() +
+#  theme_bw() +
   
-  xlab("x-coordinate") +
+#  xlab("x-coordinate") +
   
-  ylab("y-coordinate")
+#  ylab("y-coordinate")
 
-grid.arrange(plot1, plot2, ncol=2)
+#data2 <- random_walk(500)
+
+#plot2 <- ggplot(aes(x = x, y = y), data = data2) +
+  
+#  geom_path(aes(colour = time)) +
+  
+#  theme_bw() +
+  
+#  xlab("x-coordinate") +
+  
+#  ylab("y-coordinate")
+
+#grid.arrange(plot1, plot2, ncol=2)
+
+
+
