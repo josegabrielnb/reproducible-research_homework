@@ -10,7 +10,14 @@ A random seed is a number which can be used to start a "pseudorandom number gene
 Latest commit
 
 ### Question 5
+There are 33 rows and 13 columns.
+To linearise the equation V=BL^a we plot lnV against lnL to get a linear graph with gradient alpha and intercept lnB (or just C as its just a scaling constant)
 
+Intercept is is 7.0748 with p value of 2.28e-10
+Gradient is  1.5152 with p Value of 6.44e-10
+This means that alpha, the exponent has a value of 1.5152
+And beta, the scaling factor is 1181.80711574
+They are both very statistically significant with P values very under 0.05, showing that this model fits ALOT closer than is due to chance
 
 ## Instructions
 
