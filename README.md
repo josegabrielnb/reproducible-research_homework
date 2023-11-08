@@ -1,11 +1,15 @@
 # Reproducible research: version control and R
-
+## Answers
 ### Question 4
 After running the code I see 2 random walks generated side by side. They both show a random walk over 2d space, there is a fair amount of clustering, by chance.
 Each time you run the code it leads to new plots as it generates the turns by using the runif function which generates a random number within the range 0-2pi.
 
 A random seed is a number which can be used to start a "pseudorandom number generator" This seed is used to generate a pseudorandom sequence through an algorithm. This makes the series of (pseudo)randomly generated angles/numbers dependent on the seed. Therefore it is deterministic in nature and acts as a starting point to create a list of perceived random numbers.
 
+![image](https://github.com/Willbill1978/reproducible-research_assignment/assets/150149267/6646960c-a2d9-430c-981d-11fe18020401)
+Latest commit
+
+### Question 5
 
 
 ## Instructions
