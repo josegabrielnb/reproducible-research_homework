@@ -5,7 +5,7 @@ https://github.com/lanonmymoush/logistic_growth1/tree/dev
 !!!UPDATE THE ABOVE WHEN THE ANSWERS ARE COMPLETE- THIS IS CURRENTLY JUST FOR SHOW TO SEE WHERE THE ANSWERS WILL GO - ALSO MAKE SURE TO UPDATE TO THE MAIN BRANCH AND NOT THE DEV BRANCH!!!
 
 Question 4:  
-in PUT HERE!!! 
+https://github.com/lanonmymoush/Question-4-Brownian-motion
 
 ## Instructions
 
