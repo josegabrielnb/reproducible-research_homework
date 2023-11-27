@@ -2,6 +2,9 @@
 
 \# INSERT ANSWERS HERE #
 
+![image](https://github.com/hannahugboma/reproducible-research_homework/assets/150162434/761be67d-b4fc-47b6-8271-198466ac151c)
+
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
