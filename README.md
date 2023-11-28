@@ -72,11 +72,15 @@ virusdata1 <- clean_names(virusdata)
 log_virusdata <- lm(genome_length_kb ~ log(virion_volume_nm_nm_nm), virusdata1)
 
 ggplot(logVirusdata, aes(x = log.virusdata1.genome_length_kb.,
-                         y = log.virusdata1.virion_volume_nm_nm_nm.))+
+                                             y = log.virusdata1.virion_volume_nm_nm_nm.))+
+  
   labs(x = 'log[Genome length(kb)]',
        y = 'log[Viron volume (nm3)]')+
+  
   geom_point()+
+  
   geom_smooth(method = 'lm')+
+  
   theme_bw()
 
   <p align="center">
