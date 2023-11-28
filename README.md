@@ -66,7 +66,9 @@ library(ggplot2)
 library janitor
 
 virusdata <- read.csv('Cui_etal2014.csv')
+
 virusdata1 <- clean_names(virusdata)
+
 log_virusdata <- lm(genome_length_kb ~ log(virion_volume_nm_nm_nm), virusdata1)
 
 ggplot(logVirusdata, aes(x = log.virusdata1.genome_length_kb.,
