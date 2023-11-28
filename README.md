@@ -44,8 +44,32 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
 33 rows, 9 columns
 
    - What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)
+
+use a log transfomation on both aspects of the data, so
+
+lm(log(genome_length_kb) ~ log(virion_volume_nm_nm_nm), virusdata1)
+
    - Find the exponent ($\alpha$) and scaling factor ($\beta$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)
    - Write the code to reproduce the figure shown below. (10 points)
+
+code to reproduce figure:
+
+#install.packages('ggplot2')
+#install.packages('janitor')
+library(ggplot2)
+library janitor
+
+virusdata <- read.csv('Cui_etal2014.csv')
+virusdata1 <- clean_names(virusdata)
+log_virusdata <- lm(genome_length_kb ~ log(virion_volume_nm_nm_nm), virusdata1)
+
+ggplot(logVirusdata, aes(x = log.virusdata1.genome_length_kb.,
+                         y = log.virusdata1.virion_volume_nm_nm_nm.))+
+  labs(x = 'log[Genome length(kb)]',
+       y = 'log[Viron volume (nm3)]')+
+  geom_point()+
+  geom_smooth(method = 'lm')+
+  theme_bw()
 
   <p align="center">
      <img src="https://github.com/josegabrielnb/reproducible-research_homework/blob/main/question-5-data/allometric_scaling.png" width="600" height="500">
