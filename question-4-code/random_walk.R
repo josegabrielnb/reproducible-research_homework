@@ -6,7 +6,7 @@ library(gridExtra)
 
 random_walk  <- function (n_steps,seed) {
   
-  set.seed(seed)
+  set.seed(seed) #by resetting the seed within the function each seed will correspond with 2 random graphs in a deterministic fashion
   
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
   
