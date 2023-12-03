@@ -3,8 +3,6 @@
 
 set.seed(2)
 
-n_steps <- 2
-
 library(ggplot2)
 library(gridExtra)
 
