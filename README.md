@@ -21,6 +21,13 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
 4) (**30 points**) Sometimes we are interested in modelling a process that involves randomness. A good example is Brownian motion. We will explore how to simulate a random process in a way that it is reproducible:
 
    - A script for simulating a random_walk is provided in the `question-4-code` folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)
+  what do i observe after running the random walk model
+
+Based on the graph itself – the graph shows the movement of a random particle through a space filled with other moving particles, the line on the graph being the movement pathway of the particle and the colour of the line being the time passed since the particle started moving, the darker the line being the earlier in time since movement commenced and the lighter being the position/movement of the particle later in time. Both the graphs have different scales of the x and y coordinates, indicating each of the particles followed different paths of movement within the space of the graph. The particle in the first graph (left) moved a greater distance on the x and y axis, moving between -5 to 0 on the x axis and -1 to 3 on the y asixs, whereas the second graph (right) only moved between -1 to 3 on the x axis and -2 to 0 on the y axis.
+The 2 walks show different patterns of motion and movement – the first one generated (on left) shows a more linear movement and the particle does not reach the area of the graph between the coordinates (-1,0), whereas in the second generated walk, the particles movement is more widespread and covers most of the coordinate regions of the space. the overall movement of the particle on both of the graphs looks relatively random, and the environment is considerably busy as the graph has many loops of the particle moving back on itself, indicating continuous bumping into other particles. In the first graph, there is a short period where the particle moves in a straight direction.
+
+upon running this code again and creating a new model, 2 copletely different graphs are formed with different patterns and directions of movement to those just described.
+   
    - Investigate the term **random seeds**. What is a random seed and how does it work? (5 points)
    - Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)
    - Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)
