@@ -1,6 +1,8 @@
 #install.packages("ggplot2")
 #install.packages("gridExtra")
 
+set.seed(2)
+
 library(ggplot2)
 library(gridExtra)
 
