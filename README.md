@@ -29,6 +29,11 @@ The 2 walks show different patterns of motion and movement – the first one gen
 upon running this code again and creating a new model, 2 copletely different graphs are formed with different patterns and directions of movement to those just described.
    
    - Investigate the term **random seeds**. What is a random seed and how does it work? (5 points)
+
+A random seed is number/vector used to initiate a psaudorandom number generator. a pseudo random number generator is an algorithm that generates sequences of numbers that are approximately random, and the sequence of numbers is determined by the seed, therefore if the same seed is used for the pseuado number generator instead of a random seed, the same sequence of numbers will be produced. 
+
+In R studio a setting a seed creates a pseudo random number generator, and setting a random seed can be used to generate random numbers. The function itself in R studio is an ‘integer containing vector’, and contains a random number generator and can be used for generating random numbers to create different scenarios in the model or data being observed and tested. This can be used to introduce randomness and therefore reduce the reproducibility of the results.
+
    - Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)
    - Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)
      ![image](https://github.com/hannahugboma/reproducible-research_homework/assets/150162434/239e5c13-2a60-4f44-a73e-a868c88742e6)
