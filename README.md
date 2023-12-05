@@ -1,6 +1,77 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+# Question 4
+
+Initially, the two faceted plots show different paths because each path is determined by a different set of random steps. Also, every time I re-run the code, a different random path is generated for each left and right graph. 
+
+A random seed is a feature that determines the set of numbers that will be used when random numbers are used. Usually, when getting a set of random numbers in R, R will choose a random seed for you. However, this is not reproducible--every time the code is run, a different set of random numbers will be used, and results and plots will look different. Instead of a random seed, you can use a set seed. A set seed fixes the random numbers generated for a project so that every time the code runs, including when different users run the code on different devices, the same data and figures will be generated. When code relies on drawing random numbers, it is important to use a set seed to ensure reproducibility. 
+
+I used the function set.seed to make sure the same random number distribution is used for every run of the code. When I use the set.seed function before the random_walk function both times it is used, the left and right graphs look the same -- the same set of random numbers are being used to create both plots. 
+
+# Question 5
+
+
+summary(Cui_etal2014)
+The dataset has 13 columns and 33 rows.
+
+
+A log transformation will make the data suitable for linear modeling, because the relationship between genome size and volume follows an exponential relationship. 
+
+
+Cui_etal2014$log_volume <- log(Cui_etal2014$`Virion volume (nm×nm×nm)`)
+Cui_etal2014$log_genome_length <- log(Cui_etal2014$`Genome length (kb)`)
+
+model <- lm(log_volume ~ log_genome_length  , Cui_etal2014)
+summary(model)
+
+Obtained from model: 
+intercept = 7.0748, p = 2.28e-10
+log_volume = 1.5152, p = 6.44e-10
+These coefficients are statistically significant. 
+
+To match these linear coefficients to the exponential equation referenced in the paper, we need to use rules of logarithms:
+**$`V = \beta L^{\alpha}`$**
+**$`log(V) = log(\beta L^{\alpha})`$**
+**$`log(V) = log(\beta) + log(L^{\alpha})`$**
+**$`log(V) = log(\beta) + \alpha*log(L)`$**
+
+Comparing the linear model to this transformation, the intercept represents log(\beta) while the slope represents \alpha. 
+\alpha = 1.5152
+In table 2 of the paper, the authors report the \alpha value for dsDNA viruses as 1.52, which exactly matches the \alpha value found here. 
+
+To find \beta, back-transform the intercept: e^7.0748 = 1181.807. 
+
+The paper reports a \beta value of 1,182, which agrees with this calculation.
+
+Reproducing the figure in the README report: 
+
+virion_plot <- ggplot(Cui_etal2014,aes(x=log_genome_length, y=log_volume)) +
+  geom_point() +
+  geom_smooth(method='lm') + 
+  theme_bw() + 
+  labs(x = "log[Genome length (kb)]", y= "log[Virion volume (nm3)]") +
+  theme(axis.title = element_text(face="bold"))
+
+virion_plot
+
+png(filename="virion_plot.png", width=600, height=500)
+
+To calculate the volume of a 300 kb dsDNA virus, we can use the final parameters or the linear model: 
+**$`V = \beta L^{\alpha}`$**
+**$`V = 1182 * 300^{1.52}`$**
+**$`V = 6884015$**
+
+log(virion_volume) = 7.0748 + 1.5152 * log(genome_length)
+log(virion_volume) = 7.0748 + 1.5152 * log(300)
+log(virion_volume) = 15.71717
+virion_volume = 6696998
+
+There are minor differences in these two calculations due to rounding, but the model predicts that a 300 kb DNA virus will have a volume of 7 x 10^6 (7 million) nm^3. 
+
+# Bonus
+Reproducibility and replicability are used as synonyms colloquially and in some academic contexts. However, sources more specific to data science tend to distinguish between the two, though not always in consistent ways. For conciseness, I will stick to the Association for Computing Machinery as reported by Plesser (2018, https://www.frontiersin.org/articles/10.3389/fninf.2017.00076/full); however, these definitions shift and flip depending on the author. For example, "reproducibility" as it is used in our computing sessions on creating reproducible code and figures refers to writing code that will run consistently across several machines, though that might be considered "replicable" under these guidelines. 
+
+According to the ACM, reproducibility refers to the ability to reach the same conclusions using independently developed code or software, whereas replicability refers to the ability to reach the same conclusions using the same code. Github is useful in enhancing both replicability and reproducibility. Providing all code and data in one open-access place is great for replicability, since code and documents can be forked and run directly on the platform to ensure that the computational methods work as intended for other researchers. Github is also useful for reproducibility, since seeing the starting point and logical basis for how code was written and run allows other researchers to critically inspect it for flaws and write their own methods to check your work. However, especially in biology, data science is only one part of the experimental process, and git and Github are not really designed to share tools to enhance the replicability and reproducibility of your work. Other platforms like protocols.io, which has similar sharing and forking abilities as Github, can integrate full, step-by-step methods focusing on computation or on lab methods. Sharing replicable and reproducible code isn't worth much if your data was collected based on faulty methods--the precise steps of data collection have to be accounted for as well.  
 
 ## Instructions
 
