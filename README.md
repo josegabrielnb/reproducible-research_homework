@@ -1,6 +1,6 @@
 # Reproducible research: version control and R
 
-1. Answers to questions 1, 2 and 3 are embedded within the logistic_growth repo: https://github.com/PennyHodgson/logistic_growth
+1. Answers to questions 1, 2 and 3 are embedded within the logistic_growth repository: https://github.com/PennyHodgson/logistic_growth
 2. See above
 3. See above
 4. a)  A script for simulating a random walk is provided in the question-4-code folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)
