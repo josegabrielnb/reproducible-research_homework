@@ -1,6 +1,12 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+1. Answers to questions 1, 2 and 3 are embedded within the logistic_growth repo: https://github.com/PennyHodgson/logistic_growth
+2. See above
+3. See above
+4. a)  A script for simulating a random walk is provided in the question-4-code folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)
+   b) Investigate the term random seeds. What is a random seed and how does it work? (5 points)
+   c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked reproducible-research homework repo. (10 points)
+   d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the README.md of the fork). (5 points)
 
 ## Instructions
 
