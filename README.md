@@ -1,9 +1,10 @@
 # Reproducible research: version control and R
 
-### Questions 1-3
+## Questions 1-3
 Answers to questions 1, 2 and 3 are found within README.md in the dev branch of my logistic_growth repository: https://github.com/AnonymousUsernameCodingAssigment/logistic_growth/tree/dev
 
-### Question 4 
+
+## Question 4 
 **(30 points) Sometimes we are interested in modelling a process that involves randomness. A good example is Brownian motion. We will explore how to simulate a random process in a way that it is reproducible:**
    
 <ins>A script for simulating a random_walk is provided in the question-4-code folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)</ins>
@@ -22,9 +23,11 @@ https://github.com/AnonymousUsernameCodingAssigment/reproducible-research_homewo
 
 <img width="1417" alt="Screenshot 2023-12-06 at 12 02 22" src="https://github.com/AnonymousUsernameCodingAssigment/reproducible-research_homework/assets/150151352/54b8a69c-b96a-4bdf-be2d-c3547c219e67">
 
-### Question 5 
 
-**(**30 points**) In 2014, Cui, Schlub and Holmes published an article in the *Journal of Virology* (doi: https://doi.org/10.1128/jvi.00362-14) showing that the size of viral particles, more specifically their volume, could be predicted from their genome size (length). They found that this relationship can be modelled using an allometric equation of the form $`V = \beta L^{\alpha}`$, where $`V`$ is the virion volume in nm<sup>3</sup> and $`L`$ is the genome length in nucleotides.**
+
+## Question 5 
+
+**(30 points) In 2014, Cui, Schlub and Holmes published an article in the *Journal of Virology* (doi: https://doi.org/10.1128/jvi.00362-14) showing that the size of viral particles, more specifically their volume, could be predicted from their genome size (length). They found that this relationship can be modelled using an allometric equation of the form $`V = \beta L^{\alpha}`$, where $`V`$ is the virion volume in nm<sup>3</sup> and $`L`$ is the genome length in nucleotides.**
 
 <ins>Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the `question-5-data` folder). How many rows and columns does the table have? (3 points)</ins>
 
@@ -46,10 +49,16 @@ The $\alpha$ and $\beta$ values found using the linear models were 1.52 and 1182
 <ins>What is the estimated volume of a 300 kb dsDNA virus? (4 points)</ins>
 
 1182*300<sup>1.52</sup> = 6884014.616
+
 Where the genome size of a virus us 300kb dsDNA, the esimated volume is 6884041nm3
 
+## Bonus Question 
+**(10 points) Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocols.io](https://www.protocols.io/)).**
 
-## Instructions
+
+
+
+# Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
 
