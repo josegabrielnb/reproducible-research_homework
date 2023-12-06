@@ -1,6 +1,84 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+# 1. Simulating a random walk
+```{r}
+#install.packages("ggplot2")
+#install.packages("gridExtra")
+
+library(ggplot2)
+library(gridExtra)
+
+random_walk  <- function (n_steps) {
+  
+  df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
+  
+  df[1,] <- c(0,0,1)
+  
+  for (i in 2:n_steps) {
+    
+    h <- 0.25
+    
+    angle <- runif(1, min = 0, max = 2*pi)
+    
+    df[i,1] <- df[i-1,1] + cos(angle)*h
+    
+    df[i,2] <- df[i-1,2] + sin(angle)*h
+    
+    df[i,3] <- i
+    
+  }
+  
+  return(df)
+  
+}
+```
+A dataframe is created containing 3 variables: x, y and time. The code simulates a 'random walk' according to x- and y-coordinates. A for loop is used and creates an iteration, whereby the size of the step and the angle is specified. The subsequent step (in terms of the angle/direction) is determined from the previous step.
+
+```{r}
+data1 <- random_walk(500)
+
+plot1 <- ggplot(aes(x = x, y = y), data = data1) +
+  
+  geom_path(aes(colour = time)) +
+  
+  theme_bw() +
+  
+  xlab("x-coordinate") +
+  
+  ylab("y-coordinate")
+```
+
+```{r}
+
+data2 <- random_walk(500)
+
+plot2 <- ggplot(aes(x = x, y = y), data = data2) +
+  
+  geom_path(aes(colour = time)) +
+  
+  theme_bw() +
+  
+  xlab("x-coordinate") +
+  
+  ylab("y-coordinate")
+
+grid.arrange(plot1, plot2, ncol=2)
+```
+
+Here, we are creating 2 different 'random walk' plots using the ggplot2 package, each with 500 steps, and placing them next to one another for comparison. Due to the random generation of step angle and direction for each step, the graphs are completely different. Similarly, when the code is re-run, the graphs will be different, because of the fact that the direction taken with respect to time is generated at random (using the previous step). 
+Time is measured here in number of steps, and demonstrated by use of a colour key - the darker the shade of blue the more time has elapsed (and thus the more steps taken).
+
+
+# 2. Random seeds
+
+A random seed is a method used in R for generating a pseudorandom number. The number is an integer vector generated with an algorithm, but requires a 'seed' to initialise. Hence, the number produced is pseudorandom because if you know both the seed and the generator, you can predict and reproduce the outcome.
+
+The algorithm random number generator (RNG) mimics the properties of the independent generation of numbers within a distribution in the interval (0,1). Therefore, the random seed is the first number used for this generation of numbers.
+
+Another reason the random seed is useful is because it ensures reproducibility of results, meaning the output of random numbers will be the same in each run.
+(information was sourced from r-coder.com)
+
+
 
 ## Instructions
 
