@@ -7,10 +7,7 @@ library(ggplot2)
 library(gridExtra)
 
 #create a function which simulates a random walk, each step is 0.25 long ands at a random angle 
-random_walk  <- function (n_steps, seed = NULL) {
-  if (!is.null(seed)) {
-    set.seed(seed)
-  }
+random_walk  <- function (n_steps) {
   
   #create a data frame with columns x, y and time 
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
@@ -38,7 +35,6 @@ random_walk  <- function (n_steps, seed = NULL) {
 }
 
 #creates a datset with 500 random walks 
-set.seed(45)
 data1 <- random_walk(500)
 
 #plots the random walks 
@@ -53,7 +49,6 @@ plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   ylab("y-coordinate")
 
 #creates a second data set with 500 walks 
-set.seed(45)
 data2 <- random_walk(500)
 
 #plots the second data set 
