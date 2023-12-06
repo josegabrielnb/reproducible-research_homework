@@ -15,6 +15,9 @@ random_walk  <- function (n_steps) {
    #set the initial position at (0,0) and time to 1 
   df[1,] <- c(0,0,1)
   
+  #set seed to 45 
+  set.seed(45)
+  
   #Perform the random walk 
   for (i in 2:n_steps) {
     #Define the step size 
