@@ -43,6 +43,7 @@ The $\alpha$ and $\beta$ values found using the linear models were 1.52 and 1182
    
 <img width="1001" alt="Screenshot 2023-12-06 at 15 54 21" src="https://github.com/AnonymousUsernameCodingAssigment/reproducible-research_homework/assets/150151352/e0224ce9-91b3-4180-b192-43ba4c171344">
 
+<ins>What is the estimated volume of a 300 kb dsDNA virus? (4 points)</ins>
 
 
 
