@@ -45,6 +45,8 @@ The $\alpha$ and $\beta$ values found using the linear models were 1.52 and 1182
 
 <ins>What is the estimated volume of a 300 kb dsDNA virus? (4 points)</ins>
 
+1182*300<sup>1.52</sup> = 6884014.616
+Where the genome size of a virus us 300kb dsDNA, the esimated volume is 6884041nm3
 
 
 ## Instructions
