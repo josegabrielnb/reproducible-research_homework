@@ -10,11 +10,11 @@ https://github.com/AnonymousUsernameCodingAssigment/logistic_growth/tree/main
    
 <ins>A script for simulating a random_walk is provided in the question-4-code folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)</ins>
    
-The graphs each show a paths which both start at (0,0), the line then moves 0.25 in a random direction 500 times in each graph. The code creates two data sets, each containing 500 random walks. Since the random_walk function is used to determine these random walks, the coordinates at each step is differnt in the different datasets. Therefore, when this is plotted, the path of each graph is different.
+The graphs each show a path which starts at (0,0), the line then moves 0.25 in a random direction. The code creates two data sets, each containing 500 random walks. Since the random_walk function is used to determine these random walks, the coordinates at each step is different in the different datasets. Therefore, when this is plotted, the path of each graph is different.
    
 <ins>Investigate the term random seeds. What is a random seed and how does it work? (5 points)</ins>
 
-Random seeds allow us to create the same random set of numbers each time a line of code is run, meaning that it is reproducible. In the code for question 4, new random numbers are produced each time. This means that each time the code is run, differnt numbers are produced, resulting in the production of different graphs. This is not reproducible. Therefore, we can use random seeds to create a random dataset that remains constant and can be used each time the code is run to give the same results/plot. 
+Random seeds allow us to create the same random set of numbers each time a line of code is run, meaning that it is reproducible. In the code for question 4, new random numbers are produced each time. This means that each time the code is run, different numbers are produced, resulting in the production of different graphs. This is not reproducible. Therefore, we can use random seeds to create a random dataset that remains constant and can be used each time the code is run to give the same results/plot. 
 
 <ins>Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked reproducible-research_homework repo. (10 points)</ins>
 
