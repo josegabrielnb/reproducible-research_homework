@@ -66,6 +66,13 @@ The main barrier to over come both for reproducibility and for replicability is 
 
 However, git and github are not without limitations. Both are tools that need to be learnt, this means that data and analysis uploaded here are not truly open, as they are only accessible to people that know how to use the platform. Additionally, git becomes inefficient and slow where large data files are used and github imposes limitations on the maximum size of a repository, so only a certain number of commits may be made. There are also security concerns of using github, since in the past, it has been targeted by security attacks. 
 
+**References** 
+
+National Academies of Sciences, Engineering, and Medicine (2019) 'Reproducibility and Replicability in Science' The National Academies Press: Washington, DC. 
+
+Nosek, B.A. et al. (2022) ‘Replicability, robustness, and reproducibility in psychological science’, Annual Review of Psychology, 73(1), pp. 719–748. 
+
+
 
 
 
