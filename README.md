@@ -3,14 +3,26 @@
 1. Answers to questions 1, 2 and 3 are found within README.md within the logistic_growth repository: https://github.com/AnonymousUsernameCodingAssigment/logistic_growth/tree/dev
 2. See above
 3. See above
-4. 
+4. **(30 points) Sometimes we are interested in modelling a process that involves randomness. A good example is Brownian motion. We will explore how to simulate a random process in a way that it is reproducible:**
+   
+   <ins>A script for simulating a random_walk is provided in the question-4-code folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)</ins>
+   
+   The graphs each show a paths which both start at (0,0), the line then moves 0.25 in a random direction 500 times in each graph.
+   The code creates two data sets, each containing 500 random walks. Since the random_walk function is used to determine these random walks, the coordinates at each step is differnt in the different datasets. Therefore, when this is plotted, the path of each graph is different.
+   
+   <ins>Investigate the term random seeds. What is a random seed and how does it work? (5 points)</ins>
+
+   Random seeds allow us to create the same random set of numbers each time a line of code is run, meaning that it is reproducible. In the code for question 4, new random numbers are produced each time. This means that each time the code is run, differnt numbers are produced, resulting in the production of different graphs. This is not reproducible. Therefore, we can use random seeds to create a random dataset that remains constant and can be used each time the code is run to give the same results/plot. 
+
+    <ins>Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked reproducible-research_homework repo. (10 points)</ins>
+
+    <ins>Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the README.md of the fork). (5 points)</ins>
+
+    <img width="1417" alt="Screenshot 2023-12-06 at 10 41 36" src="https://github.com/AnonymousUsernameCodingAssigment/reproducible-research_homework/assets/150151352/b4052e1d-23db-4d64-a24a-33778d270395">
 
 
 
-5. a)  A script for simulating a random walk is provided in the question-4-code folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)
-   b) Investigate the term random seeds. What is a random seed and how does it work? (5 points)
-   c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked reproducible-research homework repo. (10 points)
-   d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the README.md of the fork). (5 points)
+
 
 ## Instructions
 
