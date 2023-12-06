@@ -51,7 +51,7 @@ The $\alpha$ and $\beta$ values found using the linear models were 1.52 and 1182
 
 1182*300<sup>1.52</sup> = 6884014.616
 
-Where the genome size of a virus us 300kb dsDNA, the esimated volume is 6884041nm3
+Where the genome size of a virus us 300kb dsDNA, the estimated volume is 6884041nm3
 
 ## Bonus Question 
 **(10 points) Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocols.io](https://www.protocols.io/)).**
