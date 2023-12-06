@@ -65,13 +65,17 @@ plot2 <- ggplot(aes(x = x, y = y), data = data2) +
 grid.arrange(plot1, plot2, ncol=2)
 ```
 
-Here, 2 different 'random walk' graphs have been plotted using the ggplot2 function, each with 500 steps. Despite the fact that both plots use the same code and plot 500 steps, due to the randomness of the walks the graphs appear completely different in terms of the patterns of x- and y-coordinates with respect to time. Similarly, when the code is re-run, the plots appear differently, because of the fact that the direction taken is random. This is because direction is random with respect to time. 
-Time is demonstrated here by use of a colour key - the darker the shade of blue the more time has been spent walking.
+Here, we are creating 2 different 'random walk' plots using the ggplot2 package, each with 500 steps, and placing them next to one another for comparison. Due to the random generation of step angle and direction for each step, the graphs are completely different. Similarly, when the code is re-run, the graphs will be different, because of the fact that the direction taken with respect to time is generated at random (using the previous step). 
+Time is measured here in number of steps, and demonstrated by use of a colour key - the darker the shade of blue the more time has elapsed (and thus the more steps taken).
 
 
 # 2. Random seeds
 
-A random seed is a method used in R for generating a pseudorandom number. It is an integer vector generated with an algorithm, but requires a 'seed' to initialise. Hence, the number produced is pseudorandom because if you know both the seed and the generator, you can predict and reproduce the outcome. The algorithm random number generator (RNG) mimics the properties of the independent generation of numbers within a distribution in the interval (0,1). 
+A random seed is a method used in R for generating a pseudorandom number. The number is an integer vector generated with an algorithm, but requires a 'seed' to initialise. Hence, the number produced is pseudorandom because if you know both the seed and the generator, you can predict and reproduce the outcome.
+
+The algorithm random number generator (RNG) mimics the properties of the independent generation of numbers within a distribution in the interval (0,1). Therefore, the random seed is the first number used for this generation of numbers.
+
+Another reason the random seed is useful is because it ensures reproducibility of results, meaning the output of random numbers will be the same in each run.
 (information was sourced from r-coder.com)
 
 
