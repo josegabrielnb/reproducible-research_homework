@@ -66,6 +66,11 @@ The mainn barrier to over come both for reproducibility and for replicability is
 However, git and github are not without limitations. Both are tools that need to be learnt, this means that data and analysis uploaded here are not truly open, as they are only accessible to people that know how to use the platform. Additionally, git becomes inefficient and slow where large data files are used and github imposes limitations on the maximum size of a repository, so only a certain number of commits may be made. There are also security concerns of using github, since in the past, it has been targeted by security attacks. 
 
 
+
+
+
+
+
 # Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
