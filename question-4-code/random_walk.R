@@ -45,7 +45,7 @@ plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   ylab("y-coordinate")
 
 data2 <- brownian_motion(500, seed = 4)
-
+#using a different seed for second graph
 
 plot2 <- ggplot(aes(x = x, y = y), data = data2) +
   
