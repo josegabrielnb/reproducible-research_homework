@@ -40,7 +40,7 @@ If we transform both the x and y axis, the data will fit a linear model.
    
 <ins>Find the exponent ($\alpha$) and scaling factor ($\beta$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)</ins>
 
-The $\alpha$ and $\beta$ values found using the linear models were 1.52 and 1182 respectivly. Both were significant at a significance level of 0.05 with _p_ = 6.44x10<sup>-10</sup> for alpha and _p_ = 2.28x10<sup>-10</sup> for beta. These are the same values as for dsDNA in the orginal papaer, meaning that the data analysis is reproducible. 
+The $\alpha$ and $\beta$ values found using the linear models were 1.52 and 1182 respectively. Both were significant at a significance level of 0.05 with _p_ = 6.44x10<sup>-10</sup> for alpha and _p_ = 2.28x10<sup>-10</sup> for beta. These are the same values as for dsDNA in the original paper, meaning that the data analysis is reproducible. 
 
 
 <ins>Write the code to reproduce the figure shown below. (10 points)
