@@ -18,8 +18,20 @@
 
     <ins>Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the README.md of the fork). (5 points)</ins>
 
-    <img width="1417" alt="Screenshot 2023-12-06 at 10 41 36" src="https://github.com/AnonymousUsernameCodingAssigment/reproducible-research_homework/assets/150151352/b4052e1d-23db-4d64-a24a-33778d270395">
+ <img width="1417" alt="Screenshot 2023-12-06 at 12 02 22" src="https://github.com/AnonymousUsernameCodingAssigment/reproducible-research_homework/assets/150151352/54b8a69c-b96a-4bdf-be2d-c3547c219e67">
 
+
+5. **(**30 points**) In 2014, Cui, Schlub and Holmes published an article in the *Journal of Virology* (doi: https://doi.org/10.1128/jvi.00362-14) showing that the size of viral particles, more specifically their volume, could be predicted from their genome size (length). They found that this relationship can be modelled using an allometric equation of the form $`V = \beta L^{\alpha}`$, where $`V`$ is the virion volume in nm<sup>3</sup> and $`L`$ is the genome length in nucleotides.**
+
+     <ins>Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the `question-5-data` folder). How many rows and columns does the table have? (3 points)</ins>
+
+     The table has 33 rows and 13 columns (using ncol() and nrow()).
+  
+      <ins>What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)</ins>
+   
+      <ins>Find the exponent ($\alpha$) and scaling factor ($\beta$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)</ins>
+   
+      <ins>Write the code to reproduce the figure shown below. (10 points)
 
 
 
