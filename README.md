@@ -14,7 +14,7 @@ The graphs each show a path which starts at (0,0), the line then moves 0.25 in a
    
 <ins>Investigate the term random seeds. What is a random seed and how does it work? (5 points)</ins>
 
-Random seeds allow us to create the same random set of numbers each time a line of code is run, meaning that it is reproducible. In the code for question 4, new random numbers are produced each time. This means that each time the code is run, different numbers are produced, resulting in the production of different graphs. This is not reproducible. Therefore, we can use random seeds to create a random dataset that remains constant and can be used each time the code is run to give the same results/plot. 
+Random seeds allow us to create the same random set of numbers each time a line of code is run, meaning that it is reproducible. In the code for question 4, new random numbers are produced each time. This means that each time the code is run, different numbers are produced, resulting in the production of different graphs. This is not reproducible. Therefore, we can use the function set.seed() to create a random dataset that is the same each time the code is run to give the same results/plot. 
 
 <ins>Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked reproducible-research_homework repo. (10 points)</ins>
 
