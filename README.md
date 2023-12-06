@@ -74,6 +74,8 @@ Time is demonstrated here by use of a colour key - the darker the shade of blue 
 A random seed is a method used in R for generating a pseudorandom number. It is an integer vector generated with an algorithm, but requires a 'seed' to initialise. Hence, the number produced is pseudorandom because if you know both the seed and the generator, you can predict and reproduce the outcome. The algorithm random number generator (RNG) mimics the properties of the independent generation of numbers within a distribution in the interval (0,1).
 (information was sourced from r-coder.com)
 
+
+
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
