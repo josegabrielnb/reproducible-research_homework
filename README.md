@@ -32,6 +32,8 @@
       <ins>Find the exponent ($\alpha$) and scaling factor ($\beta$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)</ins>
    
       <ins>Write the code to reproduce the figure shown below. (10 points)
+   
+<img width="1001" alt="Screenshot 2023-12-06 at 15 54 21" src="https://github.com/AnonymousUsernameCodingAssigment/reproducible-research_homework/assets/150151352/e0224ce9-91b3-4180-b192-43ba4c171344">
 
 
 
