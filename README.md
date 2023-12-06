@@ -1,7 +1,8 @@
 # Reproducible research: version control and R
 
 ## Questions 1-3
-Answers to questions 1, 2 and 3 are found within README.md file of my logistic_growth repository: https://github.com/AnonymousUsernameCodingAssigment/logistic_growth/tree
+Answers to questions 1, 2 and 3 are found within README.md file of my logistic_growth repository: 
+https://github.com/AnonymousUsernameCodingAssigment/logistic_growth/tree/main
 
 
 ## Question 4 
