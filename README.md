@@ -77,8 +77,6 @@ Nosek, B.A. et al. (2022) ‘Replicability, robustness, and reproducibility in p
 
 
 
-
-
 # Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points (plus an optional bonus question worth 10 extra points). First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
