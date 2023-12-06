@@ -32,7 +32,7 @@ random_walk  <- function (n_steps) {
   
 }
 ```
-A dataframe is created containing 3 variables: x, y and time. The code simulates a 'random walk' according to x- and y-coordinates, meaning the 
+A dataframe is created containing 3 variables: x, y and time. The code simulates a 'random walk' according to x- and y-coordinates. A for loop is used and creates an iteration, whereby the size of the step and the angle is specified. The subsequent step (in terms of the angle/direction) is determined from the previous step.
 
 ```{r}
 data1 <- random_walk(500)
@@ -71,7 +71,7 @@ Time is demonstrated here by use of a colour key - the darker the shade of blue 
 
 # 2. Random seeds
 
-A random seed is a method used in R for generating a pseudorandom number. It is an integer vector generated with an algorithm, but requires a 'seed' to initialise. Hence, the number produced is pseudorandom because if you know both the seed and the generator, you can predict and reproduce the outcome. The algorithm random number generator (RNG) mimics the properties of the independent generation of numbers within a distribution in the interval (0,1).
+A random seed is a method used in R for generating a pseudorandom number. It is an integer vector generated with an algorithm, but requires a 'seed' to initialise. Hence, the number produced is pseudorandom because if you know both the seed and the generator, you can predict and reproduce the outcome. The algorithm random number generator (RNG) mimics the properties of the independent generation of numbers within a distribution in the interval (0,1). 
 (information was sourced from r-coder.com)
 
 
