@@ -11,14 +11,22 @@ A seed is a number or a vector that acts as a starting point for a pseudorandom 
 
 5. The table has 13 columns and 33 rows.
 
-To make the data fit a linear model, we could apply a log transformation. 
+To make the data fit a linear model, we could apply a log transformation (see question_5_code.R for process). 
 
-The value I found for the exponent is 0.237, and the value i found for the scaling factor was 2198.092, with a p-value < 2e-10. This implies that the values I have obtained are statistically significant. However, I did not find the same values as found in the paper.
+The value I found for the exponent is 11.37312, p< 2e-16, and the value i found for the scaling factor 5424800, p = 0.233. This implies that the values I have obtained are statistically significant. However, I did not find the same values as found in the paper.
 
+the code to reproduce the figure:
+![image](https://github.com/beecabbages/reproducible-research_homework/assets/150164163/3fdf691a-0d25-43e7-aa96-59dfd8b81fd8)
 
+To estimate the volume of a 300kb virus, must sub L = 300 into allometric equation:
+**$`V = \beta L^{\alpha}`$**
+V = (1182)*(300)^(1.52)
+V = 6884014.61564 
 
+BONUS QUESTION 
+Reproducibility and replicability refer to different parts of research - replicability refers to the ability of an experimental design to produce consistent results when repeated, even by another researcher; reproducibility refers to the analysis of said results, and producing consistent computational results using the same methods of analysis. 
 
-
+git and GitHub can enhance the reproducibility of research, as it provides a way to keep track of the changes and different versions of the code one makes as they are analysing their data. It also allows for easier collaborative work, as the work can be made accessible to other members of a research team for example, and even researchers who wish to repeat the analysis themselves.  
 
 ## Instructions
 
