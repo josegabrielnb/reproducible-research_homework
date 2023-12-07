@@ -1,6 +1,32 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+
+Questions 1,2,3: https://github.com/beecabbages/logistic_growth.git
+
+4. The first time the code is run, both random walks display areas of more frequently traversed yet the paths followed by both are erratic. Despite both being randomly generated, the paths appear to be quite similar in shape and constricted to certain areas (path 1 avoids the bottom right corner completely and path 2, while more spread across the plane, it does not quite cover the entire area equally). Both paths appear to end in the negative Y coordinates. Running the code more times will generate different random walk paths, each following the same criteria of having an erratic pattern and areas that are more frequently walked. None of the walks generated are identical to each other. The scales of the axes also change between the different walks that are generated.  
+
+A seed is a number or a vector that acts as a starting point for a pseudorandom number generator algorithm. The seed will determine the sequence of the numbers, which means that results using this seed are reproducible, as the same sequence of numbers will be generated if the same random seed is used. 
+
+![image](https://github.com/beecabbages/reproducible-research_homework/assets/150164163/f8ca30c8-8b78-46e4-80fc-e1ae0b940833)
+
+5. The table has 13 columns and 33 rows.
+
+To make the data fit a linear model, we could apply a log transformation (see question_5_code.R for process). 
+
+The value I found for the exponent is 11.37312, p< 2e-16, and the value i found for the scaling factor 5424800, p = 0.233. This implies that the values I have obtained are statistically significant. However, I did not find the same values as found in the paper.
+
+the code to reproduce the figure:
+![image](https://github.com/beecabbages/reproducible-research_homework/assets/150164163/3fdf691a-0d25-43e7-aa96-59dfd8b81fd8)
+
+To estimate the volume of a 300kb virus, must sub L = 300 into allometric equation:
+**$`V = \beta L^{\alpha}`$**
+V = (1182)*(300)^(1.52)
+V = 6884014.61564 
+
+BONUS QUESTION 
+Reproducibility and replicability refer to different parts of research - replicability refers to the ability of an experimental design to produce consistent results when repeated, even by another researcher; reproducibility refers to the analysis of said results, and producing consistent computational results using the same methods of analysis. 
+
+git and GitHub can enhance the reproducibility of research, as it provides a way to keep track of the changes and different versions of the code one makes as they are analysing their data. It also allows for easier collaborative work, as the work can be made accessible to other members of a research team for example, and even researchers who wish to repeat the analysis themselves.  
 
 ## Instructions
 
