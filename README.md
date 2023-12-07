@@ -10,7 +10,7 @@ Question 4:
 
 a) The plots show the paths of the 2 different random walks, represented by a line. The colour of the line indicates represents the timestep that generated that position: the lighter the blue, the greater the timestep. Both random walks start from coordinate (0,0), as specified in the random_walk() function.
 
-A comparison of the 2 walk paths: Introducing the same x & y limits for the graphs helps to compare them to each other. The paths are clearly different, and both walks appear random, looping back on themselves often, although they both start off with an earlier slightly more directional period, and a later period staying around the same area. They also both cover roughly the same range of distance ( ~4 x coordinates and ~10 y coordinates), but these similarities are coincidences, since they were produced by a random function.
+A comparison of the 2 walk paths: Introducing the same x & y limits for the graphs helps to compare them to each other. The paths are clearly different, and both walks appear random, looping back on themselves often, although they both start off with an earlier slightly more directional period, and a later period staying around the same area. They also both cover roughly the same range of distance ( ~4 x units and ~10 y units), but these similarities are coincidences, since the walks were produced by a random function.
 
 Although the underlying code to produce both random walks is the same, the two walks show different paths, because each time the function runs, it is generating different coordinates, due to the runif() function, which generates a random number each time it is run. Therefore, it is not a reproducible way to simulate the random process, as if anyone tries to reproduce it, they will produce a different path.
 
@@ -21,6 +21,8 @@ d) Show the edit made to make a reproducible simulation of Brownian motion:
 note: I also made a number of other edits to this file, such as commenting on what each line of code was doing, so there are a number of green lines here, but the key addition to make the simulation reproducible is underlined in red in this image. This addition (set.seed(8002)) was also included before creating the second simulation further down the script, to ensure that the second simulation would produce the same path as the first.
 
 ![Local Image](question-4-code/Github_assignment_Q4_comparison_image.png)
+
+The edit can also be directly viewed in the file 'random_walk.R' located in the folder 'question-4-code'
 
 Question 5
 ===
@@ -46,14 +48,18 @@ Table values: exponent (α): 1.52; scaling factor (β): 1,182. These are the sam
 d) code for the graph is here, and also located in script 'viral_volume_analysis.R', found in folder 'question-5-data' of the project
 
 ggplot(aes(log(Genome.length..kb.),log(Virion.volume..nm.nm.nm.)), data = viral_data)+
+
   geom_smooth(method = "lm")+
+  
   geom_point()+
+  
   labs(x="log[Genome length (kb)]", y="log [Virion volume (nm3)]")+
+  
   theme_bw()
   
 e) **$`V = \beta L^{\alpha}`$**, where β = exp(7.0748), α = 1.5152, volume is measured in nm^3, length is measured in kb
 
-so for L = 300, V = exp(7.0748) * (300^1.5152) = ***6697007**
+so for L = 300, V = exp(7.0748) * (300^1.5152) = **6697007nm^3**
 
 Bonus question: difference between reproducibility and replicability
 ===
