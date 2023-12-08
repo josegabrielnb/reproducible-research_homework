@@ -66,6 +66,16 @@ To fit linear mode, the equation could be log-transformed:
 
 $$\[ \log(V) = \log(\beta) + \alpha \log(L) \]$$
 
+The .R file with the linear model is uploaded to the repository.
+The linear model provided the following coefficient estimates:
+
+- **Intercept $log(\(\beta\))$:** 7.0748
+- **Slope $\(\alpha\)$:** 1.5152
+- **Intercept p-value:** $\(2.28 \times 10^{-10}\)$
+- **Slope (log_L) p-value:** $\(6.44 \times 10^{-10}\)$
+
+The p-values are statistically significant as they are much smaller than the common significance level of 0.05. Therefore, we reject the null hypothesis for both the intercept and the slope. This suggests a strong and statistically significant relationship between the logarithm of virion volume and the logarithm of genome length for dsDNA viruses.
+Results from the fitted linear model resemble the results obtained in paper in Table 2. 
 
 ## Instructions
 
