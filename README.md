@@ -46,6 +46,7 @@ Under the logistic growth the population growth reaches stasis at the level of a
 
 ![image](https://github.com/assignmentcontrol/logistic_growth/assets/153260107/e95e6a57-98be-4845-8c95-64aa0eaf9bd4)
 
+
 ### Random walk
 
 Using prepared script, the following paths were produced:
@@ -76,6 +77,33 @@ The linear model provided the following coefficient estimates:
 
 The p-values are statistically significant as they are much smaller than the common significance level of 0.05. Therefore, we reject the null hypothesis for both the intercept and the slope. This suggests a strong and statistically significant relationship between the logarithm of virion volume and the logarithm of genome length for dsDNA viruses.
 Results from the fitted linear model resemble the results obtained in paper in Table 2. 
+![image](https://github.com/assignmentcontrol/reproducible-research_homework/assets/153260107/8660e32f-399d-4a58-89a1-d4ead5de5c6d)
+
+virion_data <- read.csv(file.choose())
+virion_data
+log_transformed_data <- virion_data %>%
+  mutate(log_V = log(`Virion.volume..nm.nm.nm.`),
+         log_L = log(`Genome.length..kb.`))
+
+
+linear_model <- lm(log_V ~ log_L, data = log_transformed_data)
+summary(linear_model)
+plot(log_V ~ log_L, data = log_transformed_data)
+abline(linear_model)
+
+ggplot(log_transformed_data, aes(x = log_V, y = log_L)) + 
+  geom_point() +
+  stat_smooth(method = "lm", col = "blue") +
+  theme_bw() +
+  xlab("log[Genome length (kb)]") +
+  ylab("log[Virion volume (nm3)]")
+
+### Bonus 
+
+The reproducibility and replicability in the scientific research are principally different. Reproducibility is achieved when the same methods are performed on the same data in the same research context. As we did with the virion particle study. With this kind of approach, the same code is used to recreate the same data and conclusions. 
+Whereas, replicability is achieved when the study is conducted on a new or different (subset) data with the similar or same methods to compare the results and achieve similar results. It is usually performed, when diiferent research teams are collecting data on the same hypothesis with similar methods.
+
+Git and Github can potentially enhance reproducibility and replicability. For instance, with the version control we can track changes in code and data over time for reproducibility and then share the methods and the data analysis for replicability. Also the platform fosters collaboration and neat documentation with protocols and software control.
 
 ## Instructions
 
