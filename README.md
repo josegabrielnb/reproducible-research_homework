@@ -59,7 +59,12 @@ Many simulations appear to be pseudo-random. It is implemented using a random se
 
 <img width="1426" alt="Screenshot 2023-12-08 at 02 29 27" src="https://github.com/assignmentcontrol/logistic_growth/assets/153260107/f44bb5fb-fd1c-40a9-a351-4423769682d1">
 
+# Viral particles
 
+In the data table there are 33 rows (without index) and 13 columns.
+To fit linear mode, the equation could be log-transformed:
+
+$$\[ \log(V) = \log(\beta) + \alpha \log(L) \]$$
 
 
 ## Instructions
