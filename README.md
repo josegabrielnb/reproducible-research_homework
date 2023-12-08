@@ -1,6 +1,7 @@
 # Reproducible research: version control and R
+<img width="1426" alt="Screenshot 2023-12-08 at 02 29 27" src="https://github.com/assignmentcontrol/reproducible-research_homework/assets/153260107/eabe7138-1eee-4e97-9bc6-1cbd5b67dafe">
 
-\# INSERT ANSWERS HERE #
+
 
 ## Instructions
 
