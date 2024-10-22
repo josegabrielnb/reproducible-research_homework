@@ -37,5 +37,3 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
   </p>
 
   - What is the estimated volume of a 300 kb dsDNA virus? (4 points)
-
-**Bonus** (**10 points**) Explain the difference between reproducibility and replicability in scientific research. How can git and GitHub be used to enhance the reproducibility and replicability of your work? what limitations do they have? (e.g. check the platform [protocols.io](https://www.protocols.io/)).
