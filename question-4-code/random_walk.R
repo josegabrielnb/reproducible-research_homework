@@ -3,7 +3,9 @@
 
 library(ggplot2)
 library(gridExtra)
-
+set.seed(1)#adding this line of code to set the random seed for the PRNG
+# sets the random seed for this algorithm to be 1
+#should now be reproducible
 random_walk  <- function (n_steps) {
   
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
@@ -24,6 +26,7 @@ random_walk  <- function (n_steps) {
     
   }
   
+  
   return(df)
   
 }
@@ -42,6 +45,7 @@ plot1 <- ggplot(aes(x = x, y = y), data = data1) +
 
 data2 <- random_walk(500)
 
+
 plot2 <- ggplot(aes(x = x, y = y), data = data2) +
   
   geom_path(aes(colour = time)) +
@@ -53,3 +57,4 @@ plot2 <- ggplot(aes(x = x, y = y), data = data2) +
   ylab("y-coordinate")
 
 grid.arrange(plot1, plot2, ncol=2)
+
