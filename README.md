@@ -35,7 +35,11 @@ I applied a log transformation in order to fit a linear model to the data. See "
 
 ### C
 
+### D
 
+See "Q5_script.R"
+
+### E
 
 ## Instructions
 
