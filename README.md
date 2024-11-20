@@ -23,6 +23,19 @@ See the "random_walk.R" script
 
 ![image](https://github.com/user-attachments/assets/1bcc8b49-56e1-41c6-bd5e-7f2e735c9e39)
 
+## Question 5
+
+### A
+
+13 columns and 33 rows
+
+### B
+
+I applied a log transformation in order to fit a linear model to the data. See "Q5_script.R".
+
+### C
+
+
 
 ## Instructions
 
