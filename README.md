@@ -21,6 +21,7 @@ See the "random_walk.R" script
 
 ### D
 
+![image](https://github.com/user-attachments/assets/1bcc8b49-56e1-41c6-bd5e-7f2e735c9e39)
 
 
 ## Instructions
