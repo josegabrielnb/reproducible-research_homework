@@ -1,7 +1,7 @@
-#importing the dataset
+#Importing the dataset
 virus_data <- read.csv("question-5-data/Cui_etal2014.csv")
 
-#viewing the dataset so I can see number of rows and columns
+#Viewing the dataset so I can see number of rows and columns
 View(virus_data)
 
 #Necessary packages
