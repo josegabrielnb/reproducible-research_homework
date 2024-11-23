@@ -48,7 +48,8 @@ I applied a log transformation in order to fit a linear model to the data. See "
 See "Q5_script.R"
 
 Here is my figure:
-https://ef45d3c29fb041ac902011683ce5da8e.app.posit.cloud/graphics/b5a015a2-ebef-4fbf-80b5-c3727328402f.png![image](https://github.com/user-attachments/assets/4bfe2596-5ced-41a5-83fc-5ef96bac1aab)
+![image](https://github.com/user-attachments/assets/4bfe2596-5ced-41a5-83fc-5ef96bac1aab)
+
 
 ### E
 
