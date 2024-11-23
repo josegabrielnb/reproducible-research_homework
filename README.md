@@ -4,6 +4,8 @@
 
 Answers to Questions 1, 2 3: 
 
+https://github.com/flamingobadger/logistic_growth
+
 ## Q4
 
 ### A
@@ -35,11 +37,24 @@ I applied a log transformation in order to fit a linear model to the data. See "
 
 ### C
 
+* My linear model in "Q5_script.R" gave an estimate of 1.5152 for the gradient (the exponent), and 7.0748 for the intercept (log(β)). My p-value for the intercept was 2.28e-10, and my p-value for the slope was 6.44e-10.
+* Both these p values are statistically significant
+* Logarithmically back-transforming the intercept through exp(intercept) = exp(7.0748) which gives 1181.807 which is the scaling factor
+* Meanwhile the authors of the paper found the exponent to be 1.52 and the scaling factor to be 1182 
+* Although my values do not exactly match the paper, it is likely because the paper has rounded up, 
+
 ### D
 
 See "Q5_script.R"
 
+Here is my figure:
+https://ef45d3c29fb041ac902011683ce5da8e.app.posit.cloud/graphics/b5a015a2-ebef-4fbf-80b5-c3727328402f.png![image](https://github.com/user-attachments/assets/4bfe2596-5ced-41a5-83fc-5ef96bac1aab)
+
 ### E
+
+* V = βL^⍺ (allometric equation)
+* If L = 300, then therefore: V = 1181.807 * 300^1.5152
+* Estimated volume for a 300kb dsDNA virus is 6697005.925 nm^3
 
 ## Instructions
 
