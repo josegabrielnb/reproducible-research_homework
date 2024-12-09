@@ -33,8 +33,12 @@ edited script can be found in my repo (
 
 **a) Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the `question-5-data` folder). How many rows and columns does the table have? (3 points)**
 
+In the data there are 33 rows and 13 columns
 
 **b) What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)**
+
+You can use a log transformation to fit a linear model to this data. 
+
 
 
 **c) Find the exponent ($\beta$) and scaling factor ($\alpha$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)**
