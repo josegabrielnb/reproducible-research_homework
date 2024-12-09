@@ -26,9 +26,26 @@ edited script can be found in my repo (
 
 **d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)**
 
+![image](https://github.com/user-attachments/assets/515b3d22-1866-459d-8848-adb0dbfc4f68)
 
 
+## Question 5
 
+**a) Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the `question-5-data` folder). How many rows and columns does the table have? (3 points)**
+
+
+**b) What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)**
+
+
+**c) Find the exponent ($\beta$) and scaling factor ($\alpha$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)**
+
+**   d) Write the code to reproduce the figure shown below. (10 points) 
+
+  <p align="center">
+     <img src="https://github.com/josegabrielnb/reproducible-research_homework/blob/main/question-5-data/allometric_scaling.png" width="600" height="500">
+  </p>
+
+  **e) What is the estimated volume of a 300 kb dsDNA virus? (4 points)**
 
 
 ## Instructions
