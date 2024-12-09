@@ -12,6 +12,21 @@ Sometimes we are interested in modelling a process that involves randomness. A g
 
 **a) A script for simulating a random_walk is provided in the `question-4-code` folder of this repo. Execute the code to produce the paths of two random walks. What do you observe? (10 points)**
 
+![image](https://github.com/user-attachments/assets/57f8036d-4286-4e37-938a-3a571869bc18)
+
+The provided script generates two seperate random walks on a 2D plane. In each random walk, the walk originates at coordinates (0,0) and moves through a defined number of random steps (in this case 500). For each step, a random angle is selected from a uniform distribution and the x and y cordinates are moved in this direction by the step length (in this case 0.25). The progression of time is shown through the colour gradient. Earlier steps in the random walk are shown by darker blue and as time progresses the shade of blue lightens. Every time these random walks are generated a new, unique, path is shown. This is because each step is generated randomly.
+
+**b) Investigate the term **random seeds**. What is a random seed and how does it work? (5 points)**
+
+A random seed is a number that initiates a pseudorandom number generator. Programs like R do not actually generate numbers randomly, but rather produce numbers that have a probability distribution that appears to be random (pseudorandom). Because the generation of these numbers is non-random, the "random output" is specified by the seed provided. this means that if the same seed is provided for the same pseudorandom process, the output (in this case the random walk) will be identical. 
+
+**c) Edit the script to make a reproducible simulation of Brownian motion. Commit the file and push it to your forked `reproducible-research_homework` repo. (10 points)** 
+
+edited script can be found in my repo (
+
+**d) Go to your commit history and click on the latest commit. Show the edit you made to the code in the comparison view (add this image to the **README.md** of the fork). (5 points)**
+
+
 
 
 
