@@ -4,7 +4,13 @@
 library(ggplot2)
 library(gridExtra)
 
-random_walk  <- function (n_steps) {
+#The addition of seed = NULL allows the user to elect to use a seed to make the
+#plots reproducible. If they add a seed this is used to generate reproducible 
+#random steps. 
+
+random_walk  <- function (n_steps, seed = NULL) {
+  
+  set.seed(seed)
   
   df <- data.frame(x = rep(NA, n_steps), y = rep(NA, n_steps), time = 1:n_steps)
   
@@ -27,8 +33,7 @@ random_walk  <- function (n_steps) {
   return(df)
   
 }
-
-data1 <- random_walk(500)
+data1 <- random_walk(500, seed = 12)
 
 plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   
@@ -40,7 +45,7 @@ plot1 <- ggplot(aes(x = x, y = y), data = data1) +
   
   ylab("y-coordinate")
 
-data2 <- random_walk(500)
+data2 <- random_walk(500, seed = 33)
 
 plot2 <- ggplot(aes(x = x, y = y), data = data2) +
   
@@ -53,3 +58,5 @@ plot2 <- ggplot(aes(x = x, y = y), data = data2) +
   ylab("y-coordinate")
 
 grid.arrange(plot1, plot2, ncol=2)
+
+
