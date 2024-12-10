@@ -41,8 +41,8 @@ See the "random_walk.R" script.
 ### B
 
 I applied a log transformation in order to fit a linear model to the data. See "Q5_script.R" for the full code or below for the transformation.
+![image](https://github.com/user-attachments/assets/975aab62-ab93-456a-be8a-26688c769d51)
 
-![image](https://github.com/user-attachments/assets/b3f49b15-20ec-4a74-817d-ff0c21349513.png)
 
 ### C
 
