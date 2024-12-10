@@ -42,7 +42,6 @@ https://github.com/flamingobadger/logistic_growth
 ### B
 
 I applied a log transformation in order to fit a linear model to the data. See "Q5_script.R" for the full code or below for the transformation.
-![image](https://github.com/user-attachments/assets/975aab62-ab93-456a-be8a-26688c769d51)
 
 
 ### C
