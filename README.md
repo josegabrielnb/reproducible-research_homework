@@ -27,8 +27,10 @@ https://github.com/flamingobadger/logistic_growth
 See the "random_walk.R" script
 
 ### D
+  <p align="center">
+     <img src="![image](https://github.com/user-attachments/assets/1bcc8b49-56e1-41c6-bd5e-7f2e735c9e39)" width="600" height="500">
+  </p>
 
-![image](https://github.com/user-attachments/assets/1bcc8b49-56e1-41c6-bd5e-7f2e735c9e39)
 
 ## Question 5
 
