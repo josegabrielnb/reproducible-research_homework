@@ -44,6 +44,9 @@ See the "random_walk.R" script
 
 I applied a log transformation in order to fit a linear model to the data. See "Q5_script.R".
 
+![image](https://github.com/user-attachments/assets/67ba9fad-282a-4db8-a33c-4e7fde50764b)
+
+
 ### C
 
 * My linear model in "Q5_script.R" gave an estimate of 1.5152 for the gradient (the exponent), and 7.0748 for the intercept (log(β)). My p-value for the intercept was 2.28e-10, and my p-value for the slope was 6.44e-10.
