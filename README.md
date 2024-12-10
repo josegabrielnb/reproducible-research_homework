@@ -27,10 +27,8 @@ https://github.com/flamingobadger/logistic_growth
 
 ### C
 
-See the "random_walk.R" script
-- used the function
-- created a random set
-- 
+See the "random_walk.R" script.
+
 
 ### D
   <p align="center">
@@ -56,22 +54,23 @@ I applied a log transformation in order to fit a linear model to the data. See "
 * My linear model in "Q5_script.R" gave an estimate of 1.5152 for the gradient (the exponent), and 7.0748 for the intercept (log(β)). My p-value for the intercept was 2.28e-10, and my p-value for the slope was 6.44e-10.
 * Both these p values are statistically significant
 * Logarithmically back-transforming the intercept through exp(intercept) = exp(7.0748) which gives 1181.807 which is the scaling factor
-* Meanwhile the authors of the paper found the exponent to be 1.52 and the scaling factor to be 1182 
-* Although my values do not exactly match the paper, it is likely because the paper has rounded up, 
+* Meanwhile the authors of the paper found the exponent to be 1.52 and the scaling factor to be 1182. When rounded to the same number of significant figures, these are the same values that I obtained
 
 ### D
 
 See "Q5_script.R"
 
 Here is my figure:
-![image](https://github.com/user-attachments/assets/4bfe2596-5ced-41a5-83fc-5ef96bac1aab)
 
+  <p align="center">
+     <img src="![image](https://github.com/user-attachments/assets/4bfe2596-5ced-41a5-83fc-5ef96bac1aab)" width="600" height="500">
+  </p>
 
 ### E
 
-* V = βL^⍺ (allometric equation)
-* If L = 300, then therefore: V = 1181.807 * 300^1.5152
-* Estimated volume for a 300kb dsDNA virus is 6697005.925 nm^3
+* **$`V = \alpha L^{\beta}`$** (allometric equation)
+* If L = 300, then therefore: V = 1181.807 * 3001.5152
+* Estimated volume for a 300kb dsDNA virus is 6697005.925nm<sup>3</sup>
 
 ### Reference List
 
