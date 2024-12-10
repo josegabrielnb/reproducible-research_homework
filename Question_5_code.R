@@ -5,6 +5,7 @@ library(ggplot2)
 
 Viral_volume_df <- read.csv("question-5-data/Cui_etal2014.csv")
 
+
 ##5a
 
 Number_columns <- ncol(Viral_volume_df)
@@ -15,6 +16,7 @@ Number_rows
 #
 
 ##5b
+=======
 
 Log_viral_volume_df <- Viral_volume_df %>%
   mutate(log_Volume = log(Virion.volume..nm.nm.nm.)) %>%
@@ -26,8 +28,10 @@ summary(model1)
 
 #The value matches the allometric exponent provided in the paper for double stranded DNA.
 
+
 ##5d
 
+=======
 ggplot(Log_viral_volume_df, aes(x = log_Length, y = log_Volume)) +
   geom_point() + 
   geom_smooth(method = "lm", linewidth = 0.8) +
@@ -35,7 +39,9 @@ ggplot(Log_viral_volume_df, aes(x = log_Length, y = log_Volume)) +
   theme_bw() +
   theme(axis.title = element_text(face = "bold"))
 
+
 ##5e
+=======
   
 #using the estimated parameters generated earlier we define the intercept and slope
 
