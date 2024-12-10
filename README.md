@@ -53,9 +53,7 @@ I applied a log transformation in order to fit a linear model to the data. See "
 
 ### D
 
-See "Q5_script.R"
-
-Here is my figure:
+See "Q5_script.R". Here is my figure:
 
 ![image](https://github.com/user-attachments/assets/4bfe2596-5ced-41a5-83fc-5ef96bac1aab)
     
