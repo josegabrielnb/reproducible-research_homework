@@ -43,6 +43,12 @@ https://github.com/flamingobadger/logistic_growth
 
 I applied a log transformation in order to fit a linear model to the data. See "Q5_script.R" for the full code or below for the transformation.
 
+```r
+#log transforming the data, and creating a new dataset with log values
+log_data <- virus_data %>%
+  mutate(log_length = log(Genome.length..kb.)) %>%
+  mutate(log_volume = log(Virion.volume..nm.nm.nm.))
+```
 
 ### C
 
