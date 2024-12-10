@@ -41,7 +41,6 @@ In the data there are 33 rows and 13 columns
 
 You can use a log transformation to fit a linear model to this data. (code can be seen in Question_5_code.R)
 
-
 **c) Find the exponent ($\beta$) and scaling factor ($\alpha$) of the allometric law for dsDNA viruses and write the p-values from the model you obtained, are they statistically significant? Compare the values you found to those shown in **Table 2** of the paper, did you find the same values? (10 points)**
 
 The values i obtained from the model i obtained are as follows:
@@ -73,8 +72,7 @@ The code for finding this result can be seen in Question_5_code.R.
 
 In order to estimate the volume of a 300 kb dsDNA virus i substituted tha estimates for the parameters ($\beta$ and $\alpha$) into the linear model created for this relationship. I also substituted in 300 as the length. 
 
-By substituting these values into the equation i obtained the value 6697007 for the volume of this virus.
-
+By substituting these values into the equation i obtained a volume of **6697007 nm³ = 6.70 x10<sup>6</sup> nm³** for a 300kb dsDNA virus
 
 ## Instructions
 
