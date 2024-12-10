@@ -42,10 +42,7 @@ See the "random_walk.R" script
 
 ### B
 
-I applied a log transformation in order to fit a linear model to the data. See "Q5_script.R".
-
-![image](https://github.com/user-attachments/assets/67ba9fad-282a-4db8-a33c-4e7fde50764b)
-
+I applied a log transformation in order to fit a linear model to the data. See "Q5_script.R" for the full code or below for the transformation.
 
 ### C
 
