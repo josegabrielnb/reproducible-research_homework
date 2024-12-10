@@ -35,7 +35,7 @@ edited script can be found in my repo (
 
 **a) Import the data for double-stranded DNA (dsDNA) viruses taken from the Supplementary Materials of the original paper into Posit Cloud (the csv file is in the `question-5-data` folder). How many rows and columns does the table have? (3 points)**
 
-In the data there are 33 rows and 13 columns
+In the data there are 33 rows and 13 columns. (code can be seen in Question_5_code.R)
 
 **b) What transformation can you use to fit a linear model to the data? Apply the transformation. (3 points)**
 
