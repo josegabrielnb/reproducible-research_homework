@@ -95,4 +95,9 @@ Questions 1, 2 and 3 should be answered in the **README.md** file of the `logist
      <img src="https://github.com/josegabrielnb/reproducible-research_homework/blob/main/question-5-data/allometric_scaling.png" width="600" height="500">
   </p>
 
+My figure:
+![image](https://github.com/user-attachments/assets/1b56a345-a266-489f-8ac9-bb8a21955b62)
+
   e) What is the estimated volume of a 300 kb dsDNA virus? (4 points) 
+
+  
