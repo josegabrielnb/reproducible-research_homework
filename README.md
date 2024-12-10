@@ -55,9 +55,14 @@ These values match the values given in table 2 of the original paper for dsDNA (
 
 **   d) Write the code to reproduce the figure shown below. (10 points) 
 
+
   <p align="center">
      <img src="https://github.com/josegabrielnb/reproducible-research_homework/blob/main/question-5-data/allometric_scaling.png" width="600" height="500">
   </p>
+
+  The code to reproduce this figure can be foung in Question_5_code.R.
+
+  Reproduction figure:
 
   **e) What is the estimated volume of a 300 kb dsDNA virus? (4 points)**
 
