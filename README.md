@@ -25,8 +25,9 @@ https://github.com/flamingobadger/logistic_growth
 
 ### C
 
-* I applied a 
-See the "random_walk.R" script.
+* See the "random_walk.R" script.
+* In order to edit the script to make a reproducible simulation of Brownian motion, I used "set.seed" to initialise the random number generator, and make sure that the same sequence of random numbers is drawn every time the code is run. This means the simulation can be repeated again exactly as it was before
+* I used different seeds (15 for data1 and 20 for data2) meaning that my simulations are distinct but reproducible
 
 ### D
 
