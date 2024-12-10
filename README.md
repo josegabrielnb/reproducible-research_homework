@@ -46,7 +46,7 @@ See the "random_walk.R" script.
 I applied a log transformation in order to fit a linear model to the data. See "Q5_script.R" for the full code or below for the transformation.
 
   <p align="center">
-     <img src="![image](https://github.com/user-attachments/assets/b3f49b15-20ec-4a74-817d-ff0c21349513)" width="600" height="500">
+     <img src="![image](https://github.com/user-attachments/assets/b3f49b15-20ec-4a74-817d-ff0c21349513.png)" width="600" height="500">
   </p>
 
 ### C
@@ -63,7 +63,8 @@ See "Q5_script.R"
 Here is my figure:
 
   <p align="center">
-     <img src="![image](https://github.com/user-attachments/assets/4bfe2596-5ced-41a5-83fc-5ef96bac1aab)" width="600" height="500">
+     <img src="![image](https://github.com/user-attachments/assets/4bfe2596-5ced-41a5-83fc-5ef96bac1aab)" 
+          width="600" height="500">
   </p>
 
 ### E
