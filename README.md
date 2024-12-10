@@ -15,9 +15,7 @@ https://github.com/flamingobadger/logistic_growth
 * This is both walks begin at the origin (0,0) but at each new (x,y) coordinate, a step is taken in a direction given by a random angle between 0 and 360 degrees (2π), and this is repeated 500 times.
 * Lines connecting each point in the path show a colour gradient from dark to light blue, as the colour of the line represents progression through time
 
-<p align="center">
-     <img src="![image](https://github.com/user-attachments/assets/d838b4b1-f4e0-4dff-8817-6810a688c0c0)" width="600" height="500">
-  </p>
+![image](https://github.com/user-attachments/assets/d838b4b1-f4e0-4dff-8817-6810a688c0c0)
 
 
 ### B
