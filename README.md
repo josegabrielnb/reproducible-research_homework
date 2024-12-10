@@ -25,8 +25,8 @@ https://github.com/flamingobadger/logistic_growth
 
 ### C
 
+* I applied a 
 See the "random_walk.R" script.
-
 
 ### D
 
