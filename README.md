@@ -62,7 +62,10 @@ These values match the values given in table 2 of the original paper for dsDNA (
 
   The code to reproduce this figure can be foung in Question_5_code.R.
 
-  Reproduction figure:
+Reproduction figure:
+
+  ![image](https://github.com/user-attachments/assets/96987905-6036-4d1b-a676-61cc5faef77a)
+
 
   **e) What is the estimated volume of a 300 kb dsDNA virus? (4 points)**
 
