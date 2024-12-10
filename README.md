@@ -2,7 +2,7 @@
 
 
 
-## Answers for questions 1,2 and 3 ##
+## Answers for questions 1, 2 and 3 ##
 
 answers can be found in this repo: https://github.com/PGAMF/logistic_growth
 
