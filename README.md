@@ -1,9 +1,5 @@
 # Reproducible research: version control and R
 
-1. Answered in https://github.com/1509853/logistic_growth/blob/main/README.md
-3. Answered in https://github.com/1509853/logistic_growth/blob/main/README.md
-4. Answered in https://github.com/1509853/logistic_growth/blob/main/README.md
-
 ## Instructions
 
 The homework for this Computer skills practical is divided into 5 questions for a total of 100 points. First, fork this repo and make sure your fork is made **Public** for marking. Answers should be added to the # INSERT ANSWERS HERE # section above in the **README.md** file of your forked repository.
