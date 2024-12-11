@@ -4,11 +4,11 @@
 2) Answered in https://github.com/1509853/logistic_growth/blob/main/README.md
 3) Answered in https://github.com/1509853/logistic_growth/blob/main/README.md
 4) See
-   a. 
+   a. answer
    b.
    c.
    d.
-5)
+6)
    a.
    b.
    c.
