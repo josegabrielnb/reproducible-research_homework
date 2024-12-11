@@ -9,12 +9,13 @@ a.
 b.
 c.
 d.
+
 6)
-   a.
-   b.
-   c.
-   d.
-   e. 
+a.
+b.
+c.
+d.
+e. 
 
 <img width="1188" alt="Screenshot 2024-12-10 at 14 44 20" src="https://github.com/user-attachments/assets/bdbb4fa7-de81-4d13-866a-fc9d3b662c90">
 
