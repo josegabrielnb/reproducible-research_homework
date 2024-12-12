@@ -30,9 +30,9 @@
       - For the intercept: 2.28e-10 ***
       - For Log.genome.length: 6.44e-10 ***
 
-      As these p values are <0.01, both are statistically significant.
+      As these p values are <0.01, both are statistically significant. This indicates that there is a statistically significant relationship between virus size and genome length. 
    
-      In Table 2 of the paper, the allometric exponent (β) was 1.52 and the scaling factor (α) was 1182. When rounded, the values I found are the same as those in Table 2. 
+      In Table 2 of the paper, the allometric exponent (β) was 1.52 and the scaling factor (α) was 1182. When rounded, the values I found are consistent with those found in Table 2. 
 
    d) _See question-5-code.R_
    
