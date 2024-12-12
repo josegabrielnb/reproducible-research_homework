@@ -24,14 +24,9 @@
 
    b) A logarithmic transformation should be used to fit a linear model to the data _(see code)_. 
 
-   c) For dsDNA viruses, the allometric exponent (β) is 1.5152  and the scaling factor (α) is 1181.807.
-
-      The p-values obtained from the model:
+   c) For dsDNA viruses, the allometric exponent (β) is 1.5152 (p=2.28e-10) and the scaling factor (α) is 1181.807 (p=6.44e-10).
    
-      - For the intercept: 2.28e-10 ***
-      - For Log.genome.length: 6.44e-10 ***
-
-         As these p values are <0.01, both are statistically significant. This indicates that there is a statistically significant relationship between virus size and genome length. 
+         The p values are <0.01 so both are statistically significant. This indicates that there is a statistically significant relationship between virion volume and genome length. 
    
          In Table 2 of the paper, the allometric exponent (β) was 1.52 and the scaling factor (α) was 1182. When rounded, the values I found ((1.5152 for β and 1181.807 for α) are consistent with those found in Table 2. 
 
