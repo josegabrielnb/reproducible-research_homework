@@ -12,7 +12,7 @@
    For example, the set.seed() function in R guarantees that the same random values are produced each time any code is run, which involves random number generation. Any chosen number (the seed) is inserted into the function, and this seed-fixing is crucial. Without setting a seed, the random number generator will produce values which are unlikely to produce the same output after rerunning the code. After using set.seed() with the same seed value, the same values will be outputted each time, making the results reproducible. 
 
 
-   c) See script: question-4-code/random_walk.R
+   c) _See script: question-4-code/random_walk.R_
 
    d) 
    ![code_edit](https://github.com/user-attachments/assets/4f456e83-90fe-457c-a1e7-1cc46f336861)
