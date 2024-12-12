@@ -68,7 +68,7 @@ See "Q5_script.R". Here is my figure:
 
 * **$`V = \alpha L^{\beta}`$** (allometric equation)
 * If L = 300, then therefore: V = 1181.807 * 3001.5152
-* Estimated volume for a 300kb dsDNA virus is 6697005.925nm<sup>3</sup>
+* Estimated volume for a 300kb dsDNA virus is **6697005.925nm<sup>3</sup>**
 
 ### Reference List
 
