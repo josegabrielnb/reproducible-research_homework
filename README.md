@@ -6,7 +6,7 @@ Answers to Questions 1, 2 3:
 
 https://github.com/flamingobadger/logistic_growth
 
-## Q4
+## Question 4
 
 ### A
 * The "random_walk" function in the script produces a dataframe containing x and y coordinates, and time steps. This is used to create data1 and data2 in the script, which are then plotted using the "ggplot" function.
