@@ -52,9 +52,10 @@ log_data <- virus_data %>%
 
 ### C
 
-* My linear model in "Q5_script.R" gave an estimate of 1.5152 for the gradient (the exponent), and 7.0748 for the intercept (log(β)). My p-value for the intercept was 2.28e-10, and my p-value for the slope was 6.44e-10.
+* My linear model in "Q5_script.R" gave an estimate of **1.5152** for the gradient (the exponent), and 7.0748 for the intercept (log(β)).
+* My p-value for the intercept was **2.28e-10**, and my p-value for the slope was **6.44e-10**
 * Both these p values are statistically significant
-* Logarithmically back-transforming the intercept through exp(intercept) = exp(7.0748) which gives 1181.807 which is the scaling factor
+* Logarithmically back-transforming the intercept through exp(intercept) = exp(7.0748) which gives **1181.807** which is the scaling factor
 * Meanwhile the authors of the paper found the exponent to be 1.52 and the scaling factor to be 1182. When rounded to the same number of significant figures, these are the same values that I obtained
 
 ### D
