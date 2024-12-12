@@ -26,9 +26,9 @@
 
    c) For dsDNA viruses, the allometric exponent (β) is 1.5152 (p=2.28e-10) and the scaling factor (α) is 1181.807 (p=6.44e-10).
    
-         The p values are <0.01 so both are statistically significant. This indicates that there is a statistically significant relationship between virion volume and genome length. 
+      The p values are <0.01 so both are statistically significant. This indicates that there is a statistically significant relationship between virion volume and genome length. 
    
-         In Table 2 of the paper, the allometric exponent (β) was 1.52 and the scaling factor (α) was 1182. When rounded, the values I found ((1.5152 for β and 1181.807 for α) are consistent with those found in Table 2. 
+      In Table 2 of the paper, the allometric exponent (β) was 1.52 and the scaling factor (α) was 1182. When rounded, the values I found ((1.5152 for β and 1181.807 for α) are consistent with those found in Table 2. 
 
    d) _See question-5-code.R_
    
