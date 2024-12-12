@@ -18,7 +18,7 @@
    ![code_edit](https://github.com/user-attachments/assets/4f456e83-90fe-457c-a1e7-1cc46f336861)
 
 
-6) SEE CODE- **ADD LINK HERE**
+5) SEE CODE- **ADD LINK HERE**
 
    a) The table has 33 rows and 13 columns. 
 
