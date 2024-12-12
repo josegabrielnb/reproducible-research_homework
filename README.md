@@ -18,12 +18,27 @@
    ![code_edit](https://github.com/user-attachments/assets/4f456e83-90fe-457c-a1e7-1cc46f336861)
 
 
-6)
-   a) 
-   b)
-   c)
-   d)
-   e)
+6) SEE CODE- **ADD LINK HERE**
+
+   a) The table has 33 rows and 13 columns. 
+
+   b) A logarithmic transformation should be used to fit a linear model to the data _(see code)_. 
+
+   c) For dsDNA viruses, the allometric exponent (β) is 1.5152  and the scaling factor (α) is 1181.807.
+
+      From the model, the p-values are:
+      - For the intercept: 2.28e-10 ***
+      - For Log.genome.length: 6.44e-10 ***
+
+      As these p values are <0.01, both are statistically significant.
+   
+      In Table 2 of the paper, the allometric exponent (β) was 1.52 and the scaling factor (α) was 1182. When rounded, the values I found are the same as those in Table 2. 
+
+   d) _See question-5-code.R_
+   
+   e) The estimated volume of a 300kb dsDNA virus is 6,697,006 nm^3 (_See question-5-code.R for workings_)
+
+
 
 
 ## Instructions
