@@ -26,7 +26,7 @@
 
    c) For dsDNA viruses, the allometric exponent (β) is 1.5152  and the scaling factor (α) is 1181.807.
 
-      From the model, the p-values are:
+      The p-values obtained from the model:
       - For the intercept: 2.28e-10 ***
       - For Log.genome.length: 6.44e-10 ***
 
