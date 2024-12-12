@@ -12,7 +12,7 @@ https://github.com/flamingobadger/logistic_growth
 * The "random_walk" function in the script produces a dataframe containing x and y coordinates, and time steps. This is used to create data1 and data2 in the script, which are then plotted using the "ggplot" function.
 * Below shows two random walks from data1 and data2 plotted next to each other.
 * Despite having the same number of steps (500) at a fixed distance (h-0.25),  beginning at the same coordinates (0,0) and at time 0, the two plots show completely different patterns.
-* This is because although both walks begin at the same origin (0,0) at each new (x,y) coordinate a step is taken in a direction given by a random angle between 0 and 360 degrees (2π), and this is repeated 500 times.
+* This is because although both walks begin at the same origin, at each new (x,y) coordinate a step is taken in a direction given by a random angle between 0 and 360 degrees (2π), and this is repeated 500 times giving different pattern for each plot.
 * Lines connecting each point in the path show a colour gradient from dark to light blue, as the colour of the line represents progression through time.
 
 ![image](https://github.com/user-attachments/assets/d838b4b1-f4e0-4dff-8817-6810a688c0c0)
