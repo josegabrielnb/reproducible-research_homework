@@ -1,3 +1,7 @@
+ASSIGNMENT CODE IS GIVEN IN THE README2.md FILE
+
+
+
 # Reproducible research: version control and R
 
 \# INSERT ANSWERS HERE #
