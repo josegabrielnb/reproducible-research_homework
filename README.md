@@ -1,6 +1,16 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+Questions 1, 2 & 3:  
+https://github.com/lanonmymoush/logistic_growth1
+
+Question 4:  
+https://github.com/lanonmymoush/Question-4-Brownian-motion
+
+Question 5:  
+https://github.com/lanonmymoush/Question_5_Viruses
+
+Bonus Question:  
+https://github.com/lanonmymoush/Bonus-Question
 
 ## Instructions
 
