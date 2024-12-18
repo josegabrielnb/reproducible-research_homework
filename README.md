@@ -1,6 +1,22 @@
 # Reproducible research: version control and R
 
-\# INSERT ANSWERS HERE #
+Questions 1,2,3: https://github.com/beecabbages/logistic_growth.git
+
+4. The first time the code is run, both random walks display areas of more frequently traversed yet the paths followed by both are erratic. Despite both being randomly generated, the paths appear to be quite similar in shape and constricted to certain areas (path 1 avoids the bottom right corner completely and path 2, while more spread across the plane, it does not quite cover the entire area equally). Both paths appear to end in the negative Y coordinates. Running the code more times will generate different random walk paths, each following the same criteria of having an erratic pattern and areas that are more frequently walked. None of the walks generated are identical to each other. The scales of the axes also change between the different walks that are generated.  
+
+A seed is a number or a vector that acts as a starting point for a pseudorandom number generator algorithm. The seed will determine the sequence of the numbers, which means that results using this seed are reproducible, as the same sequence of numbers will be generated if the same random seed is used. 
+
+![image](https://github.com/beecabbages/reproducible-research_homework/assets/150164163/f8ca30c8-8b78-46e4-80fc-e1ae0b940833)
+
+5. The table has 13 columns and 33 rows.
+
+To make the data fit a linear model, we could apply a log transformation to the y axis. 
+
+The value I found for the exponent is 0.237, and the value i found for the scaling factor was 2198.092, with a p-value < 2e-10. This implies that the values I have obtained are statistically significant. However, I did not find the same values as found in the paper.
+
+
+
+
 
 ## Instructions
 
